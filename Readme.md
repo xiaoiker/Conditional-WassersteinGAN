@@ -1,4 +1,4 @@
-# Conditional WassersteinGAN
+# Conditional WassersteinGAN with Auxiliary Classifier
 Tensorflow implementation of a conditional WassersteinGAN. Based on the recent paper [Wasserstein GAN](https://arxiv.org/abs/1701.07875).
 
 Note: I will interchangably use term discriminators and critic.
@@ -32,7 +32,7 @@ Note: I will interchangably use term discriminators and critic.
  ![](img/tb.png)
 
 
-## Results
+## Result
 ![](img/result.png)
 - As you can see, the results are not perfect. Some categories still have some other digits mixed into them. This may be caused by the confliction between Wasserstein distance and the classification loss function(which is cross entropy), but I have not found a better way to solve the problem. More iterations could improve the results a little more, but not much.
 
