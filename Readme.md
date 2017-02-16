@@ -34,7 +34,7 @@ Note: I will interchangably use term discriminators and critic.
 
 ## Result
 ![](img/result.png)
-- As you can see, the results are not perfect. Some categories still have some other digits mixed into them. This may be caused by the confliction between Wasserstein distance and the classification loss function(which is cross entropy), but I have not found a better way to solve the problem. More iterations could improve the results a little more, but not much.
+- As you can see, the results are not perfect. Some categories still have some other digits mixed into them. This may be caused by the conflict between Wasserstein distance and the classification loss function(which is cross entropy), but I have not found a better way to solve the problem. More iterations could improve the results a little more, but not much.
 
 
 ## References
